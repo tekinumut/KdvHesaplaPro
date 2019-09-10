@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Kdv Hesapla Pro</string>
+    <string name="tutar">Tutar</string>
+    <string name="oran18">%18</string>
+    <string name="kdvOrani">KDV Oranı</string>
+    <string name="kdv_haric">KDV Hariç</string>
+    <string name="kdv_dahil">KDV Dahil</string>
+    <string name="yuzde1">%1</string>
+    <string name="yuzde18">%18</string>
+    <string name="yuzde8">%8</string>
+    <string name="yuzdeDiger">Diğer</string>
+
+    <!-- Google reklam test id'leri -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="initial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ad_publish_id">ca-app-pub-3940256099942544~3347511713</string>
+
+
+    <string name="tutariniz">Tutarınız:</string>
+    <string name="kdv_tutari_text">KDV Tutarı:</string>
+    <string name="rec_in_kdv_tutari_text">KDV Tutarı(%s):</string>
+    <string name="kdv_dahil_text">KDV Dahil Tutar:</string>
+    <string name="kdv_haric_text">KDV Hariç Tutar:</string>
+    <string name="empty_error">Bu bölüm boş bırakılamaz!</string>
+    <string name="kayitlarim">Kayıtlarım</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="hakkinda">Hakkında</string>
+    <string name="default_tl">0 TL</string>
+    <string name="sonucText">%s TL</string>
+    <string name="eklenme_tarihi">Eklenme Tarihi:</string>
+    <string name="hata">Hata</string>
+    <string name="kayitlarimDB">KayitlarimDB</string>
+    <string name="prog_kullanimi">Program Kullanımı</string>
+
+    <string name="kullanim_kilavuzu">
+        • Uygulamadan daha fazla verim alabilmek için lütfen Program Kullanımı kısmını okuyunuz.\n
+        • Tutarı girdikten sonra %1-%8-%18 butonları ile hızlı işlem yapabilirsiniz. Eğer özel bir oran girmek isterseniz,
+        kdv oranınızı belirledikten sonra diğer butonuna tıklayarak bunu gerçekleştirebilirsiniz.\n
+        • Kdv Hariç-Kdv Dahil butonları arasında üzerine tıklayarak geçiş yapabileceğiniz gibi, ekranı parmağınızla sağa sola kaydırarakta geçiş yapabilirsiniz.
+        Eğer mevcut bir tutar girilmiş ise otomatik olarak mevcut KDV türüne göre hesap gerçekleştirilecektir.\n
+        • Kayıtlarım bölümü gerçekleştirilen tüm işlemlerin kaydının saklandığı kısımdır. Otomatik gerçekleştirilen işlemler kayıt altına alınmaz. \n
+        • İstediğiniz kaydı sağ üstteki sil simgesine tıklayarak silebilirsiniz. İsterseniz kayıtlarım kısmını komple kapatabilir ve kayıt tutma işlemini pasif hale getirebilirsiniz.
+
+        Ayarlar menüsünden mevcut tüm kayıtları silmenizi sağlayan ekstra bir işlem de bulunmaktadır.\n
+        • Uygulama otomatik olarak virgülden sonraki iki basamağı gösterir ve buna göre işlem yapar. Bunu Ayarlar menüsünden sıfır ile sekiz basamak arasında değiştirebilirsiniz.\n
+        • Eklenmesini veya çıkarılmasını istediğiniz bir özellik varsa lütfen geri bildirim yaparak veya uygulama altına yorum yazarak bu isteğinizi belirtmekten çekinmeyin.\n
+        • Geliştiriciler aşağıdaki bölümden uygulamanın kaynak kodlarına erişebilir. \n
+        • Öneri ve sorularınızı lütfen mail yoluyla iletin. Uygulamayı kullanan herkese teşekkür ederim.</string>
+    <string name="rate_app">Uygulamayı Değerlendir</string>
+    <string name="send_feedback">Geri Bildirim Gönder</string>
+    <string name="github_source_code">Uygulama Kaynak Kodları</string>
+    <string name="expand_more">Genişletmek için tıkla</string>
+    <string name="maxLinesLess">6</string>
+    <string name="expand_less">Daraltmak için tıkla</string>
+
+
+    <!-- Settings Preference -->
+    <string name="listOndalik_dialog_title">listOndalik_dialog_title</string>
+    <string name="listOndalik_summary">Virgülden sonra gösterilecek rakam sayısı</string>
+    <string name="listOndalik_title">Ondalık adedi</string>
+    <string name="listOndalik_key">listOndalik_key</string>
+    <string name="switchSave_key">switch_keepSave</string>
+    <string name="switchSave_summary">Hesap geçmişiniz kayıt ediliyor</string>
+    <string name="switchDel_summary">Tüm kayıtları silmek için tıkla</string>
+    <string name="switchDel_title">Kayıtları sil</string>
+    <string name="switchDel_key">switch_delRecords</string>
+    <!-- asd as -->
+
+
+    <string name="sure_del_record">Bu kayıtı silmek istediğinize emin misiniz?</string>
+    <string name="sure_about_del_all_records">Tüm kayıtları silmek istediğinize emin misiniz?</string>
+    <string name="evet">Evet</string>
+    <string name="hayir">Hayır</string>
+    <string name="values_removed">Tüm verileriniz başarıyla silindi</string>
+    <string name="value_removed">Kaydınız başarıyla silindi</string>
+    <string name="switchSave_summary_off">Hesap geçmişiniz kayıt edilmiyor</string>
+    <string name="myGmail">bm.umuttekin@gmail.com</string>
+    <string name="ara">Ara</string>
+    <string name="tutar_text">Tutar:</string>
+    <string name="github_address">https://github.com/tekinumut/KdvHesaplaPro</string>
+
+
+</resources>

@@ -1,0 +1,70 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "5919446eb08a871d4b03edba5ffbf0b3",
+    "entities": [
+      {
+        "tableName": "Kayitlarim",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`recordID` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `kdvType` TEXT NOT NULL, `tutar` TEXT NOT NULL, `kdv_oran` TEXT NOT NULL, `kdvTutarSonuc` TEXT NOT NULL, `toplamTutarSonuc` TEXT NOT NULL, `eklenmeTarihi` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "recordID",
+            "columnName": "recordID",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "kdvType",
+            "columnName": "kdvType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tutar",
+            "columnName": "tutar",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "kdv_oran",
+            "columnName": "kdv_oran",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "kdvTutarSonuc",
+            "columnName": "kdvTutarSonuc",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "toplamTutarSonuc",
+            "columnName": "toplamTutarSonuc",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "eklenmeTarihi",
+            "columnName": "eklenmeTarihi",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "recordID"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '5919446eb08a871d4b03edba5ffbf0b3')"
+    ]
+  }
+}

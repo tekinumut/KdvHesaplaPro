@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:dialogTitle="@string/listOndalik_dialog_title"
+        android:entries="@array/ondalik_entries"
+        android:entryValues="@array/ondalik_values"
+        android:icon="@drawable/ic_ondalik"
+        android:key="@string/listOndalik_key"
+        android:summary="@string/listOndalik_summary"
+        android:title="@string/listOndalik_title"
+        app:defaultValue=".##" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:icon="@drawable/ic_save"
+        android:key="@string/switchSave_key"
+        android:summary="@string/switchSave_summary"
+        android:title="@string/kayitlarim" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:icon="@drawable/delete_box"
+        android:key="@string/switchDel_key"
+        android:summary="@string/switchDel_summary"
+        android:title="@string/switchDel_title" />
+
+
+</PreferenceScreen>
