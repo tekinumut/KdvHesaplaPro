@@ -27,7 +27,7 @@ import kotlin.math.abs
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var mInterstitialAd: InterstitialAd //Geçiş reklamı
+    //  private lateinit var mInterstitialAd: InterstitialAd //Geçiş reklamı
     private lateinit var currentRadioButton: RadioButton //Seçili olan radio button
     private lateinit var kayitlarimViewModel: KayitlarimViewModel //MVVM :)
     private var x1: Float = 0.0f    //ekranı sağa sola çekerken kullanacağız
@@ -47,11 +47,11 @@ class MainActivity : AppCompatActivity() {
         //Banner reklam yükle
         adViewBanner.loadAd(AdRequest.Builder().build())
 
-        mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = getString(R.string.initial_ad_unit_id)
-        // mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712" //test api
-        mInterstitialAd.loadAd(AdRequest.Builder().build())
-
+        /*    mInterstitialAd = InterstitialAd(this)
+            mInterstitialAd.adUnitId = getString(R.string.initial_ad_unit_id)
+            // mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712" //test api
+            mInterstitialAd.loadAd(AdRequest.Builder().build())
+    */
         //Butonlara tıkladığımda ele alınacak işlemler
         //Buton'un textini alarak hangi butona tıkladığımızı anlayacağız
         //Mesela %1 butonuna tıkladık bu texti('%1') startCalculate metoduna gönderiyoruz.
@@ -263,8 +263,8 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.menu_kayitlarim -> {
 
-                if (mInterstitialAd.isLoaded)
-                    mInterstitialAd.show()
+                //     if (mInterstitialAd.isLoaded)
+                //         mInterstitialAd.show()
 
                 openFragment(KayitlarimFR())
             }

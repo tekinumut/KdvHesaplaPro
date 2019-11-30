@@ -34,7 +34,7 @@ class KayitlarimFR : Fragment() {
 
         kayitlarimViewModel = ViewModelProvider(this).get(KayitlarimViewModel::class.java)
 
-        kayitlarimViewModel.getAllRecords().observe(this, Observer<List<KayitlarimModel>> { model ->
+        kayitlarimViewModel.getAllRecords().observe(viewLifecycleOwner, Observer<List<KayitlarimModel>> { model ->
             recyclerView.adapter = KayitlarimAdapter(context, this, model)
         })
 
